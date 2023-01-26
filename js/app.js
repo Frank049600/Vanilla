@@ -25,7 +25,7 @@ const products = [
         price: 149,
         colors: [
             {
-                code:"ligthgray",
+                code:"lightgray",
                 img: "./img/jordan.png"
             },
             {
@@ -40,7 +40,7 @@ const products = [
         price: 109,
         colors: [
             {
-                code:"ligthgray",
+                code:"lightgray",
                 img: "./img/blazer.png"
             },
             {
@@ -59,7 +59,7 @@ const products = [
                 img: "./img/crater.png"
             },
             {
-                code:"ligthgray",
+                code:"lightgray",
                 img: "./img/crater2.png"
             }
         ]
@@ -86,7 +86,7 @@ let choosenProduct = product[0]
 const currentProductImg = document.querySelector(".productImg")
 const currentProductTitle = document.querySelector(".productTitle")
 const currentProductPrice = document.querySelector(".productPrice")
-const currentProductColors= document.querySelector(".color")
+const currentProductColors= document.querySelectorAll(".color")
 const currentProductSizes = document.querySelectorAll(".size")
 
 menuItems.forEach((item, index) => {
